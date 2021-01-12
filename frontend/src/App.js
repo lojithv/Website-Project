@@ -20,14 +20,14 @@ class App extends React.Component {
       <div className="MainDiv">
         <div class="d-flex" id="wrapper">
             <div class="bg-light border-right" id="sidebar-wrapper">
-              <div class="sidebar-heading">Therichpost </div>
+              <div class="sidebar-heading"> </div>
               <div class="list-group list-group-flush">
                 <a href="#" class="list-group-item list-group-item-action bg-light">HOME</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">FAVS</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">POPULAR</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">NEW</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">CATEGORIES</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+                
               </div>
             </div>
 
@@ -66,28 +66,26 @@ class App extends React.Component {
                 </div>
               </nav>
 
-              <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="#">CREATIONS <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">FEED <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">JOBS <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">MARKETPLACE <span class="sr-only">(current)</span></a>
-                    </li>
-                  </ul>
-                </div>
+              
+
+              <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom ">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+                    <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">CREATIONS</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">FEED</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">JOBS</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">MARKETPLACE</a>
+                          </div>
+                        </nav>
+                    </div>
               </nav>
 
               <div class="container-fluid">
                 <h1 class="mt-4">HOME</h1>
-                <p>POSTS WILL APPEAR HERE
+                <p>
+                  POSTS WILL APPEAR HERE
                 </p>
                 
               </div>
