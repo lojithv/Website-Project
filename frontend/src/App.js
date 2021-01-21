@@ -29,7 +29,7 @@ class App extends React.Component {
             <Sidebar/>
 
             <div id="page-content-wrapper">
-              
+
               <Topnav/>
               <Feednav/>
               <Feed/>
